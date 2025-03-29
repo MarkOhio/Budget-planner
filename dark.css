@@ -1,0 +1,71 @@
+.dark-mode {
+    --bg-color: #121212;
+    --text-color: white;
+}
+
+.toggle-container {
+    text-align: center;
+    cursor: pointer;
+    background: #ddd;
+    width: 50px;
+    height: 25px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+   
+    padding: 2px;
+    transition: background 0.3s;
+}
+
+.toggle-container.dark {
+    background: rgb(224, 224, 224);
+}
+
+.toggle-circle {
+    width: 20px;
+    height: 20px;
+    background: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s;
+}
+
+.dark .toggle-circle {
+    transform: translateX(24px);
+    background: yellow;
+}
+
+.icon {
+    font-size: 14px;
+}
+
+.dark-mode {
+    background: #222;
+    color: white;
+}
+
+
+
+.dark-mode .container {
+    background: rgb(88, 88, 88);
+    color: white;
+}
+
+.dark-mode th {
+    background: #001f41;
+}
+.dark-mode td{
+    color: black;
+}
+.dark-mode button {
+    background: #2f4e3600;
+    color: white;
+}
+.dark-mode button.delete {
+     color: #aa2835;
+}
+.dark-mode button.edit {
+    color: #b88a02;
+}
