@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marks Budget Tracker</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/dark.css">
+</head>
+<body>
+<!-- container start -->
+    <div class="container">
+        
+        <h2>My Budget Tracker</h2> 
+
+<!-- toggle btn for light/ dark mode start -->
+        <center>
+            <div class="toggle-container" id="toggle">
+                <div class="toggle-circle">
+                    <span class="icon" id="icon">🌞</span>
+                </div>
+            </div>
+        </center>
+<!-- toggle btn for light/ dark mode end -->
+        <br><br>
+
+<!-- input form start -->
+        <form id="budget-form">
+            <!-- to input item -->
+            <input type="text" id="item-name" placeholder="Item Name" class="textInput" required>
+            <!-- to input amount -->
+            <input type="number" id="amount" placeholder="Amount"  class="textInput" required>
+            <!-- to select category -->
+             <select id="category"> <!--Note: if value is changed here or added, add in javascript code too -->
+                <option value="Food">Food</option>
+                <option value="Transport">Transport</option>
+                <option value="Bills">Bills</option>
+                <option value="Others">Others</option>
+            </select>
+            <!-- to add values to table -->
+            <button id="add" type="submit">Add Item</button>
+        </form>
+<!-- input form end -->
+        <br>
+<!-- filter-category start -->
+        <label for="filter-category">Filter by Category:</label>
+        <select id="filter-category">
+            <option value="All">All</option>
+            <option value="Food">Food</option>
+            <option value="Transport">Transport</option>
+            <option value="Bills">Bills</option>
+            <option value="Others">Others</option>
+        </select>
+<!-- filter-category end -->
+
+<!-- table start -->
+        <table>
+            <thead>
+                <tr>
+                    <th>Item</th>
+                    <th>Amount</th>
+                    <th>Category</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody id="budget-list"></tbody> <!-- Note:the remaining content is added in the javascript -->
+        </table>
+
+        <h3>Total Budget: <span id="total-budget">N0.00</span></h3>
+<!-- table end -->
+        </div>
+<!-- container end -->
+
+<!-- export buttons start -->
+        <button id="export-csv">Export as CSV</button>
+        <button id="export-pdf">Export as PDF</button>
+<!-- export buttons end -->
+
+</body>
+<script src="java/script.js"></script>  <!-- java script for the form aqnd table -->
+<script src="java/dark.js"></script> <!-- java script for the theme -->
+</html>
+
+

@@ -1,0 +1,218 @@
+/* css for the budgect planner page */
+
+/* general design for body and container start */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #c9c9c9;
+    text-align: center;
+    transition: background 0.3s, color 0.3s;
+    color: #212529;
+}
+.container {
+    max-width: 600px;
+    margin: 30px auto;
+    background:  #FFFFFF;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    z-index: 50;
+}
+ h2 {margin-bottom: 20px;} /*the header design */
+/* general design for body and container end */
+
+
+
+/* form design code start */
+form { /*for the layout and responsiveness */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+}
+form input, form select, form button, select{
+    flex: 1;
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 50px;
+}
+.textInput:focus ,select:focus{ /* for the blue glow when the inputs or select are clicked on */
+outline: none;
+border: 1px solid #007BFF;
+box-shadow: 0 0 10px #007BFF ;
+}
+form input, form select, form button{
+    flex: 1;
+    padding: 8px;
+    font-size: 16px;
+}
+select{
+    flex: 1;
+    padding: 8px;
+    font-size: 16px;
+}
+/* form design code end */
+
+
+/* table design start */
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse; /*this is to make it able to expand border when new items are added */
+}
+th, td {  /*input decor. */
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color:  #E9ECEF ;
+}
+th {
+    background: #007BFF;
+    color: white;
+}
+/* table design end */
+
+
+
+/* general btn design start */
+
+button {
+    cursor: pointer;
+    padding: 10px;
+    font-size: 14px;
+    color: rgb(23, 182, 23);
+    text-decoration: none; 
+    outline: none;
+    border: 2px solid #6C757D;
+}
+button:hover{
+    border: 2px solid #6C757D;
+    background: rgb(23, 182, 23);
+    color: white;
+}
+button, button.delete, button.edit{/* for all the btns shape*/
+    background:transparent;
+    border-radius: 50px;
+}
+button.delete { /* for the delete btn the appears with the item */
+    color: #dc3545;
+    border: 2px  solid #dc3545;
+}
+button.delete:hover {
+    border: 2px solid #6C757D;
+    background: #dc3545;
+    color: white;
+}
+button.edit {  /* for the edit btn the appears with the item */
+    margin-bottom: 5px; /* to space it a littole from the other btn */
+    color: #ffc107;
+    border: 2px  solid #ffc107;
+}
+button.edit:hover {
+    border: 2px solid #6C757D;
+    background: #ffc107;
+    color: white;
+}
+#add{
+    border: 2px solid rgb(23, 182, 23);
+}
+/* general btn design end */
+
+
+
+/* style for te dark mode view  start*/
+
+.dark-mode {
+    background: #222 ;
+    color: white;
+}
+/* for the theme btn  start*/
+.toggle-container { 
+    text-align: center;
+    cursor: pointer;
+    background: #ddd;
+    width: 50px;
+    height: 25px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    transition: background 0.3s;
+}
+.toggle-container.dark {
+    background: rgb(224, 224, 224);
+}
+.toggle-circle {
+    width: 20px;
+    height: 20px;
+    background: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s;
+}
+.dark .toggle-circle {
+    transform: translateX(24px);
+    background: yellow;
+}
+.icon {
+    font-size: 14px;
+}
+/* for the theme btn  end*/
+
+.dark-mode .container { /* for the container */
+    background: rgb(88, 88, 88);
+    color: white;
+}
+.dark-mode th { /* for the table */
+    background: #001f41;
+}
+.dark-mode td{ /* for the table content */
+    color: black;
+}
+.dark-mode button { /* for the buttons */
+    color: white;
+}
+.dark-mode button.delete { /* for the delete btn */
+     color: #aa2835;
+}
+.dark-mode button.edit { /* for the edit btn */
+    color: #b88a02;
+}
+/* style for te dark mode view  end*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
