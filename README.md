@@ -13,9 +13,9 @@ Features<br>
 - *Table View*: Budget data is displayed in a tabular format, making it easy to view and manage.
 <br>
 Technologies Used<br>
-- *HTML*: Used for structuring and organizing content.<br>
-- *CSS*: Used for styling and layout.<br>
-- *JavaScript*: Used for client-side scripting, data storage, and manipulation.<br>
+- HTML: Used for structuring and organizing content.<br>
+- CSS: Used for styling and layout.<br>
+- JavaScript: Used for client-side scripting, data storage, and manipulation.<br>
 
 Usage
 1. Open the application in a web browser.
