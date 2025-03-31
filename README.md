@@ -13,9 +13,9 @@ Features<br>
 - *Table View*: Budget data is displayed in a tabular format, making it easy to view and manage.
 <br>
 Technologies Used<br>
-- *HTML*: Used for structuring and organizing content.
-- *CSS*: Used for styling and layout.
-- *JavaScript*: Used for client-side scripting, data storage, and manipulation.
+- *HTML*: Used for structuring and organizing content.<br>
+- *CSS*: Used for styling and layout.<br>
+- *JavaScript*: Used for client-side scripting, data storage, and manipulation.<br>
 
 Usage
 1. Open the application in a web browser.
@@ -25,8 +25,8 @@ Usage
 5. Use the "Edit" and "Delete" buttons to manage existing items.
 6. Click the "Export" button to export the budget data as a CSV or PDF file.
 
-Contributing
-Contributions are welcome! If you'd like to report a bug or suggest a feature, please open an issue on this repository.
+Contributing<br>
+Contributions are welcome! If you'd like to report a bug or suggest a feature, please open an issue on this repository.<br>
 
 Acknowledgments
 - Mark Ohio: Developer and maintainer of this application.
