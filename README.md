@@ -17,13 +17,13 @@ Technologies Used<br>
 - CSS: Used for styling and layout.<br>
 - JavaScript: Used for client-side scripting, data storage, and manipulation.<br>
 <br>
-Usage
-1. Open the application in a web browser.
-2. Click the "Add Item" button to create a new budget item.
-3. Enter the item name, amount, and category.
-4. Click the "Save" button to save the item.
-5. Use the "Edit" and "Delete" buttons to manage existing items.
-6. Click the "Export" button to export the budget data as a CSV or PDF file.
+Usage<br>
+1. Open the application in a web browser.<br>
+2. Click the "Add Item" button to create a new budget item.<br>
+3. Enter the item name, amount, and category.<br>
+4. Click the "Save" button to save the item.<br>
+5. Use the "Edit" and "Delete" buttons to manage existing items.<br>
+6. Click the "Export" button to export the budget data as a CSV or PDF file.<br>
 
 Contributing<br>
 Contributions are welcome! If you'd like to report a bug or suggest a feature, please open an issue on this repository.<br>
